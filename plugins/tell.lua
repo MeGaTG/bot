@@ -14,11 +14,11 @@ local action = function(msg, blocks, ln)
 	
 	--check if the user has a username
 	if msg.from.username then
-		text = text..'*Username*: @'..msg.from.username:mEscape()..'\n'
+		text = text..'💠*Username*: @'..msg.from.username:mEscape()..'\n'
 	end
 	
 	--add the id
-	text = text..'*ID*: '..msg.from.id..'\n'
+	text = text..'💠*ID*: '..msg.from.id..'\n'
 	
 	--if in a group, build group info
 	if msg.chat.type == 'group' or msg.chat.type == 'supergroup' then
@@ -29,13 +29,13 @@ local action = function(msg, blocks, ln)
 		api.sendMessage(msg.from.id, text, true)
 	end
 		
-	mystat('/tell') --save stats
+	mystat('/info') --save stats
 end
 
 return {
 	action = action,
 	triggers = {
-		'^/(tell)$',
-		'^/(tell@GroupButler_bot)$'
+		'^/(info)$',
+		'^/(info@OffLiNeHelperbot)$'
 	}
 }
