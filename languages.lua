@@ -46,12 +46,12 @@ return {
         pv = 'This is a command available only in a group',
         not_mod = 'You are *not* a moderator',
         breaks_markdown = 'This text breaks the markdown.\nCheck how many times you used * or _ or `',
-        ping= 'Pong!',
+        ping= 'I am Online',
         control = {
-            reload = '*Bot reloaded!*',
-            stop = '*Stopping bot!*'
+            reload = '*Bot reloaded!*😃',
+            stop = '*Stopping bot!*😏'
         },
-        credits = 'This bot is based on [GroupButler bot](https://github.com/RememberTheAir/GroupButler), an *opensource* bot available on [Github](https://github.com/). Follow the link to know how the bot works or which data are stored.\n\nRemember you can always use /c command to ask something.\n\nFollow the [channel](https://telegram.me/GroupButler_ch) for further info and updates\nGive me the rating you think I deserve [here](https://telegram.me/storebot?start=groupbutler_bot)',
+        credits = 'This Bot Created With [Amir](https://telegram.me/this_is_amir)\n\nBot Basde On *GroupButler bot*\n\n)',
         extra = {
 			usage = 'Write next to /extra the title of the command and the text associated.\nFor example:\n/extra #motm stay positive. The bot will reply _\'Stay positive\'_ each time someone writes #motm',
             new_command = '*New command setted!*\n&&&1\n&&&2',
@@ -299,10 +299,10 @@ return {
             output = '```\n&&&1\n```'
         },
         tell = {
-            first_name = '*First name*: &&&1\n',
-            last_name = '*Last name*: &&&1\n',
-            group_name = '\n*Group name*: &&&1\n',
-            group_id = '*Group ID*: &&&1'
+            first_name = '💠*First name*: &&&1\n',
+            last_name = '💠*Last name*: &&&1\n',
+            group_name = '\n💠*Group name*: &&&1\n',
+            group_id = '💠*Group ID*: &&&1'
         },
         warn = {
             warn_reply = 'Reply to a message to warn the user',
