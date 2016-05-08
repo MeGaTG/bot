@@ -51,7 +51,7 @@ return {
             reload = '*Bot reloaded!*😃',
             stop = '*Stopping bot!*😏'
         },
-        credits = 'This Bot Created With [OffLiNeTeam](https://telegram.me/offlineteam)\n\nBot Basde On *GroupButler bot*\n\nTeam Channel : \n[Amir](https://telegram.me/this_is_amir) Owner Team \n\n[Ali](https://telegram.me/alirezasoltani1376)\n\nSpecial Tnx To :\n)',
+        credits = 'This Bot Created With [OffLiNeTeam](https://telegram.me/offlineteam)\n\nBot Basde On *GroupButler bot*\n\nTeam Channel : \n[Amir](https://telegram.me/this_is_amir) Owner Team \n\n[Ali](https://telegram.me/alirezasoltani1376)\n\nSpecial Tnx To :\n[Rlotar](https://telegram.me/rlotar)\n[IM/-\N](https://telegram.me/imandaneshi)\n[ShahabDark](https://www.instagram.com/alphaw__/)\nAnd All My Friends\n\nTelegram.me/OffLiNeTeam)',
         extra = {
 			usage = 'Write next to /extra the title of the command and the text associated.\nFor example:\n/extra #motm stay positive. The bot will reply _\'Stay positive\'_ each time someone writes #motm',
             new_command = '*New command setted!*\n&&&1\n&&&2',
