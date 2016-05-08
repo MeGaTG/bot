@@ -5,11 +5,11 @@ local action = function(msg, blocks, ln)
 	end
 	
 	local text = ''
-	text = text..make_text(lang[ln].tell.first_name, msg.from.first_name:mEscape())
+	text = text..make_text(lang[ln].info.first_name, msg.from.first_name:mEscape())
 	
 	--check if the user has a last name
 	if msg.from.last_name then
-		text = text..make_text(lang[ln].tell.last_name, msg.from.last_name:mEscape())
+		text = text..make_text(lang[ln].info.last_name, msg.from.last_name:mEscape())
 	end
 	
 	--check if the user has a username
@@ -22,8 +22,8 @@ local action = function(msg, blocks, ln)
 	
 	--if in a group, build group info
 	if msg.chat.type == 'group' or msg.chat.type == 'supergroup' then
-		text = text..make_text(lang[ln].tell.group_name, msg.chat.title:mEscape())
-		text = text..make_text(lang[ln].tell.group_id, msg.chat.id)
+		text = text..make_text(lang[ln].info.group_name, msg.chat.title:mEscape())
+		text = text..make_text(lang[ln].info.group_id, msg.chat.id)
 		api.sendReply(msg, text, true)
 	else
 		api.sendMessage(msg.from.id, text, true)
