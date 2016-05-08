@@ -298,7 +298,7 @@ return {
             done = 'Done!',
             output = '```\n&&&1\n```'
         },
-        tell = {
+        info = {
             first_name = '💠*First name*: &&&1\n',
             last_name = '💠*Last name*: &&&1\n',
             group_name = '\n💠*Group name*: &&&1\n',
