@@ -1,7 +1,7 @@
 return {
 	bot_api_key = '219298173:AAH9-Mb_v2GQBjwKdLS5nZBAhTiIk-RBnlQ',
 	time_offset = 223404066,
-	admin = 23646077,
+	admin = 0,
 	channel = '@OffLiNeTeam', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
@@ -33,7 +33,7 @@ return {
 		'en',
 		'it',
 		'es',
-		'br'
+		--'br'
 		--more to come
 	},
 	chat_data = {
@@ -67,3 +67,4 @@ return {
 		[429] = 'Too many requests: retry later', --the bot is hitting api limits
 	}
 }
+--thisIsAmir
