@@ -1,7 +1,7 @@
 return {
 	bot_api_key = '219298173:AAH9-Mb_v2GQBjwKdLS5nZBAhTiIk-RBnlQ',
-	time_offset = 223404066,
-	admin = 0,
+	time_offset = 0,
+	admin = 223404066,
 	channel = '@OffLiNeTeam', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
