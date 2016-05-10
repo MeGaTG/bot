@@ -51,7 +51,7 @@ return {
             reload = '*Bot reloaded!*😃',
             stop = '*Stopping bot!*😏'
         },
-        Bot = 'This Bot Created With [OffLiNeTeam](https://telegram.me/offlineteam)\n\nBot Basde On *GroupButler bot*',
+        Bot = 'telegram.me/offlineteam',
         credits = 'This Bot Created With [OffLiNeTeam](https://telegram.me/offlineteam)\n\nBot Basde On *GroupButler bot*',
         extra = {
 			usage = 'Write next to /extra the title of the command and the text associated.\nFor example:\n/extra #motm stay positive. The bot will reply _\'Stay positive\'_ each time someone writes #motm',
@@ -299,7 +299,7 @@ return {
             done = 'Done!',
             output = '```\n&&&1\n```'
         },
-        info = {
+        me = {
             first_name = '💠*First name*: &&&1\n',
             last_name = '💠*Last name*: &&&1\n',
             group_name = '\n💠*Group name*: &&&1\n',
