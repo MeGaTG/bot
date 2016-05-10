@@ -10,6 +10,7 @@ return {
 		'mod.lua',
 		'credits.lua',
 		'ping.lua',
+		'Bot.lua',
 		'tell.lua',
 		'help.lua',
 		'rules.lua',
