@@ -61,19 +61,17 @@ return {
             command_empty = '&&&1 command does not exist'
         },
         getstats = {
-	OffLiNeHeLPeR Commands:
-	Member Attack ! 
-	》 /kick (reply)
-	اخراج فرد از گروه
-	》 /ban (id) & /unban (id)
-	(id|userName)
-	شخص مورد نظر را بن کنید تا مانع ورود مجدد فرد به گروه شوید
-
-	》 /flood kick/ban
-	حساسیت به پیام سریع در قالب کیک یا بن
-
-	》 /flood number
-	تغییر عدد حساسیت پیام سریع
+            OffLiNeHeLPeR Commands:
+            Member Attack ! 
+            》 /kick (reply)
+            اخراج فرد از گروه
+            》 /ban (id) & /unban (id)
+            (id|userName)
+            شخص مورد نظر را بن کنید تا مانع ورود مجدد فرد به گروه شوید
+            》 /flood kick/ban
+            حساسیت به پیام سریع در قالب کیک یا بن
+            》 /flood number
+            تغییر عدد حساسیت پیام سریع
         },
         help = {
             owner = '*Commands for the owner*:\n'
