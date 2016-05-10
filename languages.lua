@@ -65,82 +65,22 @@ return {
             stats = '&&&1'
         },
         helps = {
-		OffLiNeHeLPeR Commands:
-		Member Attack ! 
+            OffLiNeHeLPeR Commands:
+            Member Attack ! 
   
-		》 /kick (reply)
-		اخراج فرد از گروه
+	    》 /kick (reply)
+             اخراج فرد از گروه
 
-		》 /ban (id) & /unban (id)
-		(id|userName)
-		شخص مورد نظر را بن کنید تا مانع ورود مجدد فرد به گروه شوید
+            》 /ban (id) & /unban (id)
+            (id|userName)
+            شخص مورد نظر را بن کنید تا مانع ورود مجدد فرد به گروه شوید
 	
-		》 /flood kick/ban
-		حساسیت به پیام سریع در قالب کیک یا بن
+            》 /flood kick/ban
+            حساسیت به پیام سریع در قالب کیک یا بن
 	
-		》 /flood number
-		تغییر عدد حساسیت پیام سریع
-  
-		Rules & About !
-
-		》 /setrules <rules>
-		ایجاد قانون جدید برای گروه
+            》 /flood number
+            تغییر عدد حساسیت پیام سریع
  
-		》 /setabout <bio>
-		ایجاد درباره جدید برای گروه
-
-		Group Welcome ! 
-		》 /welcome 
-		no|r|a|ra|ma|rm|rma|custom text 
-
-		no only the simple welcome message
-		》 /welcome r
-		پیام خوشامد گویی همراه با قوانین
-  
-		》 /welcome a 
-		پیام خوشامدگویی همراه با درباره گروه
-
-		》 /welcome m 
-		پیام خوشامد گویی همراه با لیست مدیران
-		
-		》 /welcome ra|ar
-		پیام خوشامدگویی همراه با درباره گروه و قوانین
-  
-		》 /welcome اینجا بنویسید
-		تغییر دلخواه خوشامدگویی گروه
-  
-		Get Show !  
-  
-		》 /link
-		نمایش لینک گروه
-
-		》 /rules & /about
-		نمایش قوانین گروه
- 
-		》 /settings
-		نمایش تنظیمات گروه
-
-		》 /menu 
-		نمایش تنظیمات گروه در خصوصی
-  
-		》 /dashboard  
-		ارسال اطلاعات کلی گروه
-  
-		》 /media
-		نمایش لیست داده هایی که میتوانند ممنوع شوند
-
-		Set On Or Off !
-		》 /flood on/off
-		خاموش/روشن کردن حساسیت پیام سریع
-  
-		》 /enable /disable welcome
-		خاموش/روشن کردن پیام خوشامدگویی 
-  
-		》 /enable /disable rules|about|modlist|extra
-		خاموش/روشن کردن قوانین/درباره/لیست مدیران/دستورات بیشتر
-
-		》 /enable /disable chat|rtl
-		خاموش/روشن کردن چت ممنوع/حذف افراد با اسم طولانی
 	},
         help = {
             owner = '*Commands for the owner*:\n'
