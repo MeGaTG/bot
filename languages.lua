@@ -46,12 +46,12 @@ return {
         pv = 'This is a command available only in a group',
         not_mod = 'You are *not* a moderator',
         breaks_markdown = 'This text breaks the markdown.\nCheck how many times you used * or _ or `',
-        ping= 'I am Online',
+        ping= 'Pong!',
         control = {
-            reload = '*Bot reloaded!*😃',
-            stop = '*Stopping bot!*😏'
+            reload = '*Bot reloaded!*',
+            stop = '*Stopping bot!*'
         },
-        credits = 'This Bot Created With [OffLiNeTeam](https://telegram.me/offlineteam)\n\nBot Basde On *GroupButler bot*',
+        credits = 'This bot is based on [GroupButler bot](https://github.com/RememberTheAir/GroupButler), an *opensource* bot available on [Github](https://github.com/). Follow the link to know how the bot works or which data are stored.\n\nRemember you can always use /c command to ask something.\n\nFollow the [channel](https://telegram.me/GroupButler_ch) for further info and updates\nGive me the rating you think I deserve [here](https://telegram.me/storebot?start=groupbutler_bot)',
         extra = {
 			usage = 'Write next to /extra the title of the command and the text associated.\nFor example:\n/extra #motm stay positive. The bot will reply _\'Stay positive\'_ each time someone writes #motm',
             new_command = '*New command setted!*\n&&&1\n&&&2',
@@ -64,6 +64,84 @@ return {
             redis = 'Redis updated',
             stats = '&&&1'
         },
+        helps = {
+		OffLiNeHeLPeR Commands:
+		Member Attack ! 
+  
+		》 /kick (reply)
+		اخراج فرد از گروه
+
+		》 /ban (id) & /unban (id)
+		(id|userName)
+		شخص مورد نظر را بن کنید تا مانع ورود مجدد فرد به گروه شوید
+	
+		》 /flood kick/ban
+		حساسیت به پیام سریع در قالب کیک یا بن
+	
+		》 /flood number
+		تغییر عدد حساسیت پیام سریع
+  
+		Rules & About !
+
+		》 /setrules <rules>
+		ایجاد قانون جدید برای گروه
+ 
+		》 /setabout <bio>
+		ایجاد درباره جدید برای گروه
+
+		Group Welcome ! 
+		》 /welcome 
+		no|r|a|ra|ma|rm|rma|custom text 
+
+		no only the simple welcome message
+		》 /welcome r
+		پیام خوشامد گویی همراه با قوانین
+  
+		》 /welcome a 
+		پیام خوشامدگویی همراه با درباره گروه
+
+		》 /welcome m 
+		پیام خوشامد گویی همراه با لیست مدیران
+		
+		》 /welcome ra|ar
+		پیام خوشامدگویی همراه با درباره گروه و قوانین
+  
+		》 /welcome اینجا بنویسید
+		تغییر دلخواه خوشامدگویی گروه
+  
+		Get Show !  
+  
+		》 /link
+		نمایش لینک گروه
+
+		》 /rules & /about
+		نمایش قوانین گروه
+ 
+		》 /settings
+		نمایش تنظیمات گروه
+
+		》 /menu 
+		نمایش تنظیمات گروه در خصوصی
+  
+		》 /dashboard  
+		ارسال اطلاعات کلی گروه
+  
+		》 /media
+		نمایش لیست داده هایی که میتوانند ممنوع شوند
+
+		Set On Or Off !
+		》 /flood on/off
+		خاموش/روشن کردن حساسیت پیام سریع
+  
+		》 /enable /disable welcome
+		خاموش/روشن کردن پیام خوشامدگویی 
+  
+		》 /enable /disable rules|about|modlist|extra
+		خاموش/روشن کردن قوانین/درباره/لیست مدیران/دستورات بیشتر
+
+		》 /enable /disable chat|rtl
+		خاموش/روشن کردن چت ممنوع/حذف افراد با اسم طولانی
+	},
         help = {
             owner = '*Commands for the owner*:\n'
                     ..'`/owner` (by reply) : set a new owner\n'
@@ -298,11 +376,11 @@ return {
             done = 'Done!',
             output = '```\n&&&1\n```'
         },
-        info = {
-            first_name = '💠*First name*: &&&1\n',
-            last_name = '💠*Last name*: &&&1\n',
-            group_name = '\n💠*Group name*: &&&1\n',
-            group_id = '💠*Group ID*: &&&1'
+        tell = {
+            first_name = '*First name*: &&&1\n',
+            last_name = '*Last name*: &&&1\n',
+            group_name = '\n*Group name*: &&&1\n',
+            group_id = '*Group ID*: &&&1'
         },
         warn = {
             warn_reply = 'Reply to a message to warn the user',
